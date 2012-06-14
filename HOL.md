@@ -133,8 +133,8 @@ Run the following to determine the data center to create your storage account in
 
 In this exercise, you will learn how to provision a simple virtual machine in Windows Azure using PowerShell. 
 
-<a name='Ex1Task2'></a>
-#### Task 2 - Provisioning a Virtual Machine####
+<a name='Ex1Task1'></a>
+#### Task 1 - Provisioning a Virtual Machine####
 
 The first step to create a virtual machine in Windows Azure is to define the virtual machine configuration for items such as endpoints or data disks, and then define which cloud service and data center the vm will reside in. 
 
@@ -174,7 +174,7 @@ The first step to create a virtual machine in Windows Azure is to define the vir
 
 1. Next, choose the VM creation script below based on whether you selected Windows or Linux. 
 
-	1. A Windows Windows Virtual Machine from an Image.
+	1. A Windows Virtual Machine from an Image.
 
 		````PowerShell
 		$adminPassword = '[YOUR-PASSWORD]'
@@ -226,7 +226,7 @@ The first step to create a virtual machine in Windows Azure is to define the vir
 	>**Note:** Make sure your virtual machine finished provisioning before executing these commands.
 
 <a name='Exercise2'/>
-### Exercise 2: Advanced Provisioning Settings##
+### Exercise 2: Using PowerShell CmdLets for Advanced Provisioning##
 
 In addition to just creating a single uncustomized virtual machine. You can also configure data disks, disk cache settings, networking endpoints and automatically configure domain join settings at provisioning time in addition to batch creating VMs using the New-AzureVMConfig/New-AzureVM cmdlet combination.
 
@@ -320,7 +320,7 @@ The example also adds a new endpoint for TCP port 1433 internally that is listen
 
 	_Initializing disks_
 
-1. Once the disks are initialized you will then need to right click on the right side and select Create Simple Volume (software RAID is support so those are options are available as well). The create simple volume wizard will allow you to format the disks and mount them for use.
+1. Once the disks are initialized you will then need to right click on the right side and select **Create Simple Volume** (software RAID is support so those are options are available as well). The **Create Simple Volume** wizard will allow you to format the disks and mount them for use.
 
 	![formatteddisks](images/formatteddisks.png?raw=true)
 
