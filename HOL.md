@@ -1,4 +1,4 @@
-﻿<a name='HOLTop' />
+<a name='HOLTop' />
 # Managing Virtual Machines with the Windows Azure PowerShell Cmdlets #
 
 <a name='Overview' />
@@ -22,7 +22,7 @@ In this hands-on lab, you will learn how to:
 The following is required to complete this hands-on lab:
 
 - [Windows Azure PowerShell Cmdlets](http://msdn.microsoft.com/en-us/library/windowsazure/jj156055)
-- A Windows Azure subscription with the Virtual Machines Preview enabled - you can sign up for free trial [here](http://bit.ly/WindowsAzureFreeTrial)
+- A Windows Azure subscription with the Virtual Machines Preview enabled - you can [sign up for free trial](http://aka.ms/WATK-FreeTrial)
 
 >**Note:** This lab was designed to use Windows 7 Operating System.
 
