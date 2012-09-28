@@ -11,6 +11,7 @@
   <Source>Source</Source>
   <DependencyChecker>.\Source\Setup\Dependencies.depi</DependencyChecker>
   <CustomProperties>
+      	<Property Name="ContentType" Value="Scenario" />
 	<Property Name="GitHubRepository" Value="https://github.com/WindowsAzure-TrainingKit/HOL-AutomatingVMManagementPS" />
   </CustomProperties>   
 </Lab> 
